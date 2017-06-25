@@ -45,7 +45,7 @@ public class LambdaCheckedException {
 	}
 }
 ```
-So solution is to create custom functional interface which can throw checked exception and use that in lambda expression.
+So solution is to create custom functional interface which can throw checked exception and use that in lambda expression.<br/>
 Please go through the code section for solution.
 
 
