@@ -1,4 +1,4 @@
-Java 8 Unchecked Exception in Handling Lambda Express: <br/>
+<b>Java 8 Unchecked Exception in Handling Lambda Express: </b><br/>
 Standard Java Lambda expression doesn't have facility to propagate the exception to caller. 
 The reason is standard functional interface which facilitates the lamda expression don't handle unchecked exception. 
 
