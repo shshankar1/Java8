@@ -1,1 +1,1 @@
-# Using this repo to explain some of Java 8 Features.
+# Use this repo to understand some of Java 8 Features.
