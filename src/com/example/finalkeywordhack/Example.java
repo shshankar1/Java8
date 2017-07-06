@@ -7,22 +7,22 @@ public class Example {
 	public static void main(String[] args) throws SecurityException,
 			NoSuchFieldException, IllegalArgumentException,
 			IllegalAccessException {
-		Employee e1 = new Employee("123");
+		Employee e1 = new Employee(123);
 		Field id = Employee.class.getDeclaredField("id");
 		id.setAccessible(true);
-		id.set(e1, "567");
+		id.set(e1, 345);
 		System.out.println(e1.toString());
 	}
 }
 
 class Employee {
-	private final String id;
+	private final int id;
 
-	public Employee(String id) {
+	public Employee(int id) {
 		this.id = id;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
 
