@@ -1,1 +1,0 @@
-Java 8 Stream Performance Issue
